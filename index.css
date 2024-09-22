@@ -405,6 +405,11 @@ h4 {
   text-transform: uppercase;
 }
 
+.blogviewport h3 {
+  font-weight: 400;
+  margin: 150px auto;
+}
+
 .blogviewport h4 {
   font-weight: 600;
   margin: 0;
