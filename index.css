@@ -443,10 +443,31 @@ h4 {
   margin: 8px 0;
 }
 
+.blogmainpost1 {
+  width: 300px;
+  height: 380px;
+  background-image: url(images/dsteps\ cover\ 2.png);
+  background-position: 0%;
+  background-size: cover;
+  border-radius: 2px;
+  background-position: center;
+  cursor: pointer;
+  margin: 8px 0;
+}
+
 .blogpost1:hover,
 .blogpost2:hover,
 .blogpost3:hover,
 .blogpost4:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.blogmainpost1:hover,
+.blogmainpost2:hover,
+.blogmainpost3:hover,
+.blogmainpost4:hover {
   cursor: pointer;
   opacity: 0.8;
   transition: 0.2s;
@@ -462,12 +483,34 @@ h4 {
   cursor: pointer;
   margin: 8px 0;
 }
+
+.blogmainpost2 {
+  width: 300px;
+  height: 380px;
+  background-image: url(images/half\ rainbow.jpg);
+  background-size: cover;
+  border-radius: 2px;
+  background-position: center;
+  cursor: pointer;
+  margin: 8px 0;
+}
+
 .blogpost3 {
   width: 300px;
   height: 380px;
   background-image: url(images/operator\ diner\ pancake.jpg);
   background-size: cover;
+  border-radius: 2px;
+  background-position: center;
+  cursor: pointer;
+  margin: 8px 0;
+}
 
+.blogmainpost3 {
+  width: 300px;
+  height: 380px;
+  background-image: url(images/operator\ diner\ pancake.jpg);
+  background-size: cover;
   border-radius: 2px;
   background-position: center;
   cursor: pointer;
@@ -475,6 +518,17 @@ h4 {
 }
 
 .blogpost4 {
+  width: 300px;
+  height: 380px;
+  background-image: url(images/unimelb\ study.jpg);
+  background-size: cover;
+  border-radius: 2px;
+  background-position: center;
+  cursor: pointer;
+  margin: 8px 0;
+}
+
+.blogmainpost4 {
   width: 300px;
   height: 380px;
   background-image: url(images/unimelb\ study.jpg);
@@ -662,7 +716,7 @@ h4 {
     max-width: 350px;
   }
 
-  .card-container .card .blogpost1,
+  .card .blogpost1,
   .blogpost2,
   .blogpost3,
   .blogpost4 {
@@ -672,6 +726,14 @@ h4 {
 
   .card-container .card .blogtitle {
     font-size: 20px;
+  }
+
+  .blogcard .blogmainpost1,
+  .blogmainpost2,
+  .blogmainpost3,
+  .blogmainpost4 {
+    width: 300px;
+    height: 380px;
   }
 }
 
@@ -707,7 +769,7 @@ h4 {
     max-width: 300px;
   }
 
-  .card-container .card .blogpost1,
+  .card .blogpost1,
   .blogpost2,
   .blogpost3,
   .blogpost4 {
@@ -717,6 +779,14 @@ h4 {
 
   .card-container .card .blogtitle {
     font-size: 17px;
+  }
+
+  .blogcard .blogmainpost1,
+  .blogmainpost2,
+  .blogmainpost3,
+  .blogmainpost4 {
+    width: 300px;
+    height: 380px;
   }
 }
 /*Contact Page*/
