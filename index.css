@@ -389,8 +389,7 @@ h4 {
   }
 }
 
-/*Blog Main Page*/
-
+/*Blog Posts*/
 .blogviewport {
   display: flex;
   flex-direction: column;
@@ -431,6 +430,14 @@ h4 {
   margin-top: 16px;
 }
 
+/*Blog Main Page*/
+
+.BlogMainPage {
+  max-width: 1400px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
 .blogpost1 {
   width: 300px;
   height: 380px;
@@ -458,21 +465,24 @@ h4 {
 .blogpost1:hover,
 .blogpost2:hover,
 .blogpost3:hover,
-.blogpost4:hover {
-  cursor: pointer;
-  opacity: 0.8;
-  transition: 0.2s;
-}
-
+.blogpost4:hover,
+.blogpost5:hover,
+.blogpost6:hover,
+.blogpost7:hover,
+.blogpost8:hover,
 .blogmainpost1:hover,
 .blogmainpost2:hover,
 .blogmainpost3:hover,
-.blogmainpost4:hover {
+.blogmainpost4:hover,
+.blogmainpost5:hover,
+.blogmainpost6:hover,
+.blogmainpost7:hover {
   cursor: pointer;
   opacity: 0.8;
   transition: 0.2s;
 }
 
+.blogmainpost2,
 .blogpost2 {
   width: 300px;
   height: 380px;
@@ -484,17 +494,7 @@ h4 {
   margin: 8px 0;
 }
 
-.blogmainpost2 {
-  width: 300px;
-  height: 380px;
-  background-image: url(images/half\ rainbow.jpg);
-  background-size: cover;
-  border-radius: 2px;
-  background-position: center;
-  cursor: pointer;
-  margin: 8px 0;
-}
-
+.blogmainpost3,
 .blogpost3 {
   width: 300px;
   height: 380px;
@@ -506,17 +506,7 @@ h4 {
   margin: 8px 0;
 }
 
-.blogmainpost3 {
-  width: 300px;
-  height: 380px;
-  background-image: url(images/operator\ diner\ pancake.jpg);
-  background-size: cover;
-  border-radius: 2px;
-  background-position: center;
-  cursor: pointer;
-  margin: 8px 0;
-}
-
+.blogmainpost4,
 .blogpost4 {
   width: 300px;
   height: 380px;
@@ -528,16 +518,65 @@ h4 {
   margin: 8px 0;
 }
 
-.blogmainpost4 {
+.blogmainpost5,
+.blogpost5 {
   width: 300px;
   height: 380px;
-  background-image: url(images/unimelb\ study.jpg);
+  background-image: url(images/blue\ mountain\ sunset\ grass.jpg);
   background-size: cover;
   border-radius: 2px;
   background-position: center;
   cursor: pointer;
   margin: 8px 0;
 }
+
+.blogmainpost6,
+.blogpost6 {
+  width: 300px;
+  height: 380px;
+  background-image: url(images/sydney\ cover.jpg);
+  background-size: cover;
+  border-radius: 2px;
+  background-position: center;
+  cursor: pointer;
+  margin: 8px 0;
+}
+
+.blogmainpost7,
+.blogpost7 {
+  width: 300px;
+  height: 380px;
+  background-image: url(images/mt\ buller.jpg);
+  background-size: cover;
+  border-radius: 2px;
+  background-position: center;
+  cursor: pointer;
+  margin: 8px 0;
+}
+
+.blogmainpost8,
+.blogpost8 {
+  width: 300px;
+  height: 380px;
+  background-image: url(images/hot\ springs\ portrait.jpg);
+  background-size: cover;
+  border-radius: 2px;
+  background-position: center;
+  cursor: pointer;
+  margin: 8px 0;
+}
+
+/* .blogcard .blogtitle {
+  text-decoration: none;
+  color: black;
+  font-size: 28px;
+  font-weight: 400;
+  transition: 0.15s transform ease;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+} */
 
 .card-container {
   max-width: 800px;
@@ -689,13 +728,20 @@ h4 {
 }
 
 @media only screen and (max-width: 500px) {
-  .blogviewport .blogwriteup {
+  .blogviewport {
     max-width: 350px;
+    margin: 0 auto;
   }
 
   .blogviewport h1 {
     margin: 80px 0 16px 0;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .blogviewport h4 {
+    text-align: center;
+    font-style: italic;
   }
 
   .blogwriteup img {
