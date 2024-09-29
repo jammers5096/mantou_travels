@@ -397,6 +397,25 @@ h4 {
   align-items: center;
 }
 
+.standfirst img {
+  margin-bottom: 10px;
+}
+
+.standfirst #crop {
+  height: 750px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.standfirst #crop2 {
+  height: 750px;
+  object-fit: cover;
+}
+
+.blogviewport .blogwriteup h2 {
+  margin: 0 auto;
+}
+
 .blogviewport h1 {
   font-size: 36px;
   font-weight: 700;
