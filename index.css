@@ -397,23 +397,24 @@ h4 {
   align-items: center;
 }
 
-.standfirst img {
-  margin-bottom: 10px;
+#crop {
+  height: 75%;
+  object-fit: cover;
+  object-position: 50% 30%;
+  overflow: hidden;
 }
 
-.standfirst #crop {
+#crop2 {
   height: 750px;
   object-fit: cover;
-  object-position: top;
+  overflow: hidden;
 }
 
-.standfirst #crop2 {
-  height: 750px;
-  object-fit: cover;
-}
-
-.blogviewport .blogwriteup h2 {
-  margin: 0 auto;
+.blogviewport h2 {
+  margin: 16px auto;
+  border: 2px solid black;
+  padding: 5px 10px;
+  display: inline-block;
 }
 
 .blogviewport h1 {
@@ -446,7 +447,7 @@ h4 {
 
 .blogwriteup img {
   width: 800px;
-  margin-top: 16px;
+  margin: 10px 0;
 }
 
 /*Blog Main Page*/
@@ -517,7 +518,7 @@ h4 {
 .blogpost3 {
   width: 300px;
   height: 380px;
-  background-image: url(images/operator\ diner\ pancake.jpg);
+  background-image: url(images/mornington\ brunch.jpg);
   background-size: cover;
   border-radius: 2px;
   background-position: center;
@@ -784,7 +785,11 @@ h4 {
   .card .blogpost1,
   .blogpost2,
   .blogpost3,
-  .blogpost4 {
+  .blogpost4,
+  .blogpost5,
+  .blogpost6,
+  .blogpost7,
+  .blogpost8 {
     width: 190px;
     height: 270px;
   }
@@ -796,7 +801,11 @@ h4 {
   .blogcard .blogmainpost1,
   .blogmainpost2,
   .blogmainpost3,
-  .blogmainpost4 {
+  .blogmainpost4,
+  .blogmainpost5,
+  .blogmainpost6,
+  .blogmainpost7,
+  .blogmainpost8 {
     width: 300px;
     height: 380px;
   }
@@ -837,7 +846,11 @@ h4 {
   .card .blogpost1,
   .blogpost2,
   .blogpost3,
-  .blogpost4 {
+  .blogpost4,
+  .blogpost5,
+  .blogpost6,
+  .blogpost7,
+  .blogpost8 {
     width: 150px;
     height: 200px;
   }
@@ -849,7 +862,11 @@ h4 {
   .blogcard .blogmainpost1,
   .blogmainpost2,
   .blogmainpost3,
-  .blogmainpost4 {
+  .blogmainpost4,
+  .blogmainpost5,
+  .blogmainpost6,
+  .blogmainpost7,
+  .blogmainpost8 {
     width: 300px;
     height: 380px;
   }
@@ -889,6 +906,40 @@ h4 {
     z-index: 1;
 }
 */
+
+/*Table of Contents*/
+
+.tableofcontentscontainer {
+  display: flex;
+  margin-left: 40px;
+}
+.tableofcontents {
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.tableofcontents h4 {
+  text-decoration: underline;
+  padding: 0 0 4px 0;
+  font-size: 18px;
+}
+
+.tableofcontents a {
+  text-decoration: none;
+  color: black;
+  transition: transform 0.15s ease;
+  font-size: 16px;
+  padding: 1px 0;
+}
+
+.tableofcontents a:hover {
+  text-decoration: none;
+  color: lightseagreen;
+  transition: 0.1s;
+}
 
 .contactcard .frizzyhair {
   text-transform: uppercase;
